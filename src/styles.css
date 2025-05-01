@@ -1,0 +1,114 @@
+/* navigation.component.css */
+
+/* Navbar with Gradient Background */
+.navbar {
+    background: linear-gradient(to right, #6ec1e4, #f4f7f6);  /* Light Blue to Light Pastel gradient */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;  /* Makes navbar stick at the top */
+    top: 0; /* Align to the top of the screen */
+    z-index: 1000; /* Ensure navbar stays above other content */
+    padding: 5px 0; /* Reduced height */
+    display: flex;
+    justify-content: space-between;  /* Place brand and nav items on the same line */
+    align-items: center;  /* Vertically center the content */
+  }
+  
+  .navbar-brand {
+    color: #2a3d66;  /* Dark Blue text for the logo */
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    margin-left: 20px; /* Adjust left margin for some spacing */
+  }
+  
+  .navbar-brand:hover {
+    color: #ffb400;  /* Golden Yellow color on hover */
+  }
+  
+  /* Navbar items */
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin-left: 0; /* Remove default left margin */
+    padding-left: 0; /* Remove default padding */
+    margin-right: 20px; /* Adjust right margin */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 30px; /* Space out each navbar item */
+    position: relative;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #2a3d66;  /* Dark Blue for links */
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+    padding: 5px 0; /* Reduced padding for a shorter navbar */
+  }
+  
+  /* Home link color (same as other nav items) */
+  .navbar-nav .nav-link.home-link {
+    color: #2a3d66; /* Same color as the other links */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffb400;  /* Golden Yellow color on hover */
+    text-decoration: underline;
+  }
+  
+  /* Active state for current link */
+  .navbar-nav .nav-link.active {
+    color: #ffb400;  /* Golden Yellow for active links */
+    font-weight: bold;
+  }
+  
+  /* Navbar Toggler (Hamburger menu for small screens) */
+  .navbar-toggler-icon {
+    background-color: #2a3d66;  /* Dark Blue for toggler icon */
+  }
+  
+  /* For small screens - Stack nav items vertically */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack navbar items on top of each other */
+      align-items: center; /* Center the items */
+    }
+  
+    .navbar-nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Dropdown menu styles */
+  .nav-item.dropdown .dropdown-menu {
+    background-color: #ffb400;  /* Golden Yellow for dropdown */
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Hide by default */
+  }
+  
+  /* Show dropdown on hover */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;  /* Show dropdown on hover */
+  }
+  
+  .nav-item.dropdown .dropdown-menu .dropdown-item {
+    color: #2a3d66;  /* Dark Blue text for dropdown items */
+    padding: 10px 20px;
+  }
+  
+  .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #6ec1e4;  /* Light Blue for dropdown hover */
+    color: #ffffff;  /* White text on hover */
+  }
+  
