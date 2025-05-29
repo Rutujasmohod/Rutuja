@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/Academy_UI/admissions": {},
+    "/Academy_UI/classes": {},
+    "/Academy_UI/contacts": {},
+    "/Academy_UI/home": {},
+    "/Academy_UI/whyus": {}
+  }
+}
