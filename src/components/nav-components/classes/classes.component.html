@@ -1,0 +1,11 @@
+<div class="classes-section">
+    <h2 class="section-heading">Enjoy the seamless Classes</h2>
+    <div class="classes-grid">
+      <div class="benefit-card" *ngFor="let benefit of classes">
+        <img [src]="benefit.image" [alt]="benefit.title" class="benefit-img" />
+        <h3 class="benefit-title">{{ benefit.title }}</h3>
+        <p class="benefit-desc">{{ benefit.description }}</p>
+      </div>
+    </div>
+</div>
+  

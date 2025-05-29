@@ -1,0 +1,11 @@
+<div class="homeTution-section">
+    <h2 class="section-heading">Why Learn with Sweta's Academy Tuition in Pune?</h2>
+    <div class="homeTution-grid">
+      <div class="benefit-card" *ngFor="let benefit of homeTution">
+        <img [src]="benefit.image" [alt]="benefit.title" class="benefit-img" />
+        <h3 class="benefit-title">{{ benefit.title }}</h3>
+        <p class="benefit-desc">{{ benefit.description }}</p>
+      </div>
+    </div>
+  </div>
+  

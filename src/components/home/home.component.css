@@ -1,0 +1,40 @@
+.home-container {
+  background-image: url('/assets/backgroundImg1.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+  height: 50vh;
+}
+  
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  .section {
+    font-size: 22px;
+    max-width: 800px;
+  }
+  
+  .highlight {
+    color: #f36c21;
+    font-weight: bold;
+  }
+  
+  .btn.orange {
+    background-color: #f36c21;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .firstStep{
+    margin-top:  48px;
+  }
+  

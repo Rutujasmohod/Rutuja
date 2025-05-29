@@ -1,0 +1,18 @@
+.describe {
+    display: flex;
+    margin: 32px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .describe-Img{
+    width: 450px;
+    height: 450px;
+  }
+  .text{
+    max-width: 900px;
+  }
+  img{
+    max-width: 300px;
+    max-height: 300px;
+  }

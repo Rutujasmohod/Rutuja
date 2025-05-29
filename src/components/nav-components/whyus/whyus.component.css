@@ -1,0 +1,49 @@
+.WhyUs {
+    display: flex;
+    margin: 32px;
+    justify-content: space-between;
+  }
+  
+  .WhyUs-Img{
+    width: 435px;
+    height: 435px;
+  }
+  img{
+    height: 350px;
+    width: 350px;
+  }
+
+  .WhyUs-text{
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+
+  .features-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+  
+  .features-list li {
+    margin-bottom: 12px;
+    padding-left: 1em;
+    position: relative;
+  }
+  
+  .features-list li::before {
+    position: absolute;
+    left: 0;
+  }
+  
